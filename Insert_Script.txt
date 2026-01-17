@@ -1,0 +1,1122 @@
+SET IDENTITY_INSERT [dbo].[Roles] ON 
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (1, N'Super Admin', N'AD', 1, 0, 1, 1, CAST(N'2024-02-20T00:00:00.0000000+05:30' AS DateTimeOffset), NULL, NULL, NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (2, N'Business Development Manager', N'ST', 1, NULL, 1, 1, CAST(N'2025-02-20T16:59:03.3645889+05:30' AS DateTimeOffset), NULL, NULL, NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (3, N'Regional Marketing Manager', N'ST', 1, NULL, 2, 1, CAST(N'2025-02-20T16:59:49.0334425+05:30' AS DateTimeOffset), NULL, NULL, NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (4, N'Regional Sales Manager', N'ST', 1, NULL, 3, 1, CAST(N'2025-02-20T17:01:18.2326058+05:30' AS DateTimeOffset), NULL, NULL, NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (5, N'Area Sales Manager', N'ST', 1, NULL, 4, 1, CAST(N'2025-02-20T17:02:05.2449646+05:30' AS DateTimeOffset), NULL, NULL, NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (6, N'Sales Officer', N'ST', 1, NULL, 5, 1, CAST(N'2025-02-20T17:02:45.0364349+05:30' AS DateTimeOffset), NULL, NULL, NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (7, N'Specifier', N'BE', 1, NULL, 6, 1, CAST(N'2025-02-24T00:00:00.0000000+05:30' AS DateTimeOffset), NULL, NULL, NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (8, N'Helpdesk', N'IU', 1, 0, 1, 1, CAST(N'2025-03-03T12:42:57.2698378+05:30' AS DateTimeOffset), NULL, NULL, NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (9, N'Data Analyst', N'IU', 1, 0, 1, 1, CAST(N'2025-03-03T15:44:21.1853584+05:30' AS DateTimeOffset), NULL, NULL, NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (10, N'Admin', N'AD', 2, NULL, 1, 1, CAST(N'2025-03-28T05:43:08.1195580+00:00' AS DateTimeOffset), 1, CAST(N'2025-03-28T05:43:20.6520024+00:00' AS DateTimeOffset), NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (11, N'test', N'AD', 2, NULL, 1, 1, CAST(N'2025-04-07T12:49:52.4759059+05:30' AS DateTimeOffset), 1, CAST(N'2025-04-07T12:49:55.5104202+05:30' AS DateTimeOffset), NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (12, N'Admin Role', N'AD', 2, NULL, 1, 1, CAST(N'2025-04-10T10:23:33.0607513+00:00' AS DateTimeOffset), 1, CAST(N'2025-04-10T10:36:33.5258452+00:00' AS DateTimeOffset), NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (13, N'Admin', N'AD', 1, NULL, 1, 1, CAST(N'2025-04-10T16:37:55.4788205+05:30' AS DateTimeOffset), 1, CAST(N'2025-04-10T17:55:32.3561812+05:30' AS DateTimeOffset), NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (14, N'DA', N'IU', 1, NULL, 1, 1, CAST(N'2025-04-15T04:14:10.5714302+00:00' AS DateTimeOffset), NULL, NULL, NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (15, N'test', N'AD', 2, NULL, 1, 1, CAST(N'2025-05-09T09:01:35.0019709+00:00' AS DateTimeOffset), 1, CAST(N'2025-05-12T17:34:56.4143704+05:30' AS DateTimeOffset), NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (16, N'demo', N'AD', 1, NULL, 1, 1, CAST(N'2025-05-13T17:42:35.7050456+05:30' AS DateTimeOffset), 1, CAST(N'2025-06-20T11:10:25.4761953+05:30' AS DateTimeOffset), NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (17, N'ASM', N'ST', 1, NULL, 4, 1, CAST(N'2025-05-13T17:52:25.7433206+05:30' AS DateTimeOffset), 1, CAST(N'2025-06-20T11:10:36.8909961+05:30' AS DateTimeOffset), NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (18, N'New role by Reshma', N'ST', 2, NULL, 1, 1, CAST(N'2025-06-10T09:47:53.8446777+05:30' AS DateTimeOffset), 1, CAST(N'2025-06-10T09:56:20.4415652+05:30' AS DateTimeOffset), NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (19, N'New role by Reshma123', N'AD', 2, NULL, 16, 1, CAST(N'2025-06-10T10:03:35.2784601+05:30' AS DateTimeOffset), 1, CAST(N'2025-06-20T10:04:56.0192028+05:30' AS DateTimeOffset), NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (20, N'New role by Reshma', N'ST', 2, NULL, 2, 1, CAST(N'2025-06-10T10:19:16.4346634+05:30' AS DateTimeOffset), 1, CAST(N'2025-06-20T09:45:30.0669732+05:30' AS DateTimeOffset), NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (21, N'New role by Reshma1234444', N'ST', 2, NULL, 17, 1, CAST(N'2025-06-19T17:07:47.4883162+05:30' AS DateTimeOffset), 1, CAST(N'2025-06-20T09:45:19.9490375+05:30' AS DateTimeOffset), NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (22, N'fdfgdfg', N'AD', 2, NULL, 1, 1, CAST(N'2025-06-19T17:29:18.5185303+05:30' AS DateTimeOffset), 1, CAST(N'2025-06-20T10:04:56.0192049+05:30' AS DateTimeOffset), NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (23, N'fgfg', N'AD', 2, NULL, 1, 1, CAST(N'2025-06-19T17:29:18.6559203+05:30' AS DateTimeOffset), 1, CAST(N'2025-06-20T09:46:35.0233742+05:30' AS DateTimeOffset), NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (24, N'New role by Reshma', N'ST', 2, NULL, 7, 1, CAST(N'2025-06-20T09:46:13.2980767+05:30' AS DateTimeOffset), 1, CAST(N'2025-06-20T09:46:24.8797147+05:30' AS DateTimeOffset), NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (25, N'New role by Reshmazxc', N'AD', 1, NULL, 3, 1, CAST(N'2025-06-24T17:04:43.0327488+05:30' AS DateTimeOffset), NULL, NULL, NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (26, N'dfgfdgfg', N'AD', 1, NULL, 6, 1, CAST(N'2025-06-25T10:19:43.3089695+05:30' AS DateTimeOffset), NULL, NULL, NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (27, N'ghnghj', N'AD', 1, NULL, 17, 1, CAST(N'2025-06-25T10:21:56.7445578+05:30' AS DateTimeOffset), NULL, NULL, NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (28, N'gfhgfhgf', N'ST', 1, NULL, 7, 1, CAST(N'2025-06-25T10:31:19.5253000+05:30' AS DateTimeOffset), NULL, NULL, NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (29, N'fbcb', N'AD', 1, NULL, 4, 1, CAST(N'2025-06-25T10:31:49.1052967+05:30' AS DateTimeOffset), NULL, NULL, NULL, NULL)
+GO
+INSERT [dbo].[Roles] ([Id], [Name], [RoleType], [Status], [UserRoleType], [ParentId], [CreatedBy], [CreatedOn], [UpdatedBy], [UpdatedOn], [WorkflowActivityID], [WorkflowActivityRoleID]) VALUES (30, N'xcvxcvhnmn', N'ST', 2, NULL, 6, 1, CAST(N'2025-06-25T16:03:43.5457943+05:30' AS DateTimeOffset), 1, CAST(N'2025-06-25T16:05:14.8639867+05:30' AS DateTimeOffset), NULL, NULL)
+GO
+SET IDENTITY_INSERT [dbo].[Roles] OFF
+GO
+SET IDENTITY_INSERT [dbo].[WebPages] ON 
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (1, N'Role', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (2, N'User Permission Management', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (3, N'Media Library', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (4, N'Zone', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (5, N'State', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (6, N'City', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (7, N'Pincode', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (8, N'Query List', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (9, N'SKU Catalogue', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (10, N'Reward Catalogue', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (11, N'Reward Catagory', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (12, N'Admin/Sales/Internal Users', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (13, N'Specifier', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (14, N'Sales Data', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (15, N'Bonus', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (16, N'Point Transaction', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (17, N'Redemption Scheduler', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (18, N'TDS Transaction', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (19, N'User Account Summary', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (20, N'Point Ledger', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (21, N'Email Template', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (22, N'SMS Template', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (23, N'Import History', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (24, N'Communication History', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (25, N'Order History', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (26, N'Pan + Business card', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (27, N'TDS', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (28, N'Tier Management', N'Backend')
+GO
+INSERT [dbo].[WebPages] ([WebPageId], [WebPageName], [WebPageType]) VALUES (29, N'Dashboard', N'Backend')
+GO
+SET IDENTITY_INSERT [dbo].[WebPages] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Permissions] ON 
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (1, N'Admin/Sales/Internal Users:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (2, N'Admin/Sales/Internal Users:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (3, N'Admin/Sales/Internal Users:Bulk Upload')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (4, N'Admin/Sales/Internal Users:Update/Edit')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (5, N'Admin/Sales/Internal Users:Delete')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (6, N'Admin/Sales/Internal Users:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (7, N'Specifier:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (8, N'Specifier:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (9, N'Specifier:Bulk Upload')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (10, N'Specifier:Update/Edit')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (11, N'Specifier:Delete')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (12, N'Specifier:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (13, N'User Permission Management:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (14, N'User Permission Management:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (15, N'User Permission Management:Update/Edit')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (16, N'Sales Data:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (17, N'Sales Data:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (18, N'Sales Data:Bulk Upload')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (19, N'Sales Data:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (20, N'Point Transaction:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (21, N'Point Transaction:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (22, N'Point Transaction:Bulk Upload')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (23, N'Point Transaction:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (24, N'Redemption Scheduler:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (25, N'Redemption Scheduler:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (26, N'Redemption Scheduler:Bulk Upload')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (27, N'Redemption Scheduler:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (28, N'Redemption Scheduler:RunScheduler')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (29, N'TDS Transaction:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (30, N'TDS Transaction:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (31, N'TDS Transaction:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (32, N'User Account Summary:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (33, N'User Account Summary:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (34, N'User Account Summary:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (35, N'Point Ledger:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (36, N'Point Ledger:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (37, N'Point Ledger:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (38, N'Bonus:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (39, N'Bonus:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (40, N'Bonus:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (41, N'City:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (42, N'City:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (43, N'City:Add')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (44, N'City:Update/Edit')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (45, N'City:Delete')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (46, N'City:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (47, N'State:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (48, N'State:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (49, N'State:Add')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (50, N'State:Update/Edit')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (51, N'State:Delete')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (52, N'State:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (53, N'Zone:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (54, N'Zone:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (55, N'Zone:Add')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (56, N'Zone:Update/Edit')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (57, N'Zone:Delete')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (58, N'Zone:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (59, N'Query List:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (60, N'Query List:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (61, N'Query List:Update/Edit')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (62, N'Query List:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (63, N'SKU Catalogue:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (64, N'SKU Catalogue:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (65, N'SKU Catalogue:Bulk Upload')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (66, N'SKU Catalogue:Delete')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (67, N'SKU Catalogue:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (68, N'Reward Catalogue:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (69, N'Reward Catalogue:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (70, N'Reward Catalogue:Bulk Upload')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (71, N'Reward Catalogue:Delete')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (72, N'Reward Catalogue:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (73, N'Reward Catagory:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (74, N'Reward Catagory:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (75, N'Reward Catagory:Bulk Upload')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (76, N'Reward Catagory:Delete')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (77, N'Reward Catagory:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (78, N'Dashboard:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (79, N'Email Template:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (80, N'Email Template:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (81, N'Email Template:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (82, N'Email Template:Update/Edit')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (83, N'SMS Template:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (84, N'SMS Template:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (85, N'SMS Template:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (86, N'SMS Template:Update/Edit')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (87, N'Import History:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (88, N'Import History:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (89, N'Import History:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (90, N'Communication History:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (91, N'Communication History:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (92, N'Communication History:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (93, N'Media Library:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (94, N'Media Library:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (95, N'Media Library:Bulk Upload')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (96, N'Media Library:Delete')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (97, N'Media Library:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (98, N'Order History:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (99, N'Order History:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (100, N'Order History:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (101, N'Pan + Business card:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (102, N'Pan + Business card:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (103, N'Pan + Business card:Delete')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (104, N'Pan + Business card:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (105, N'TDS:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (106, N'TDS:Update/Edit')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (107, N'TDS:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (108, N'Pincode:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (109, N'Pincode:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (110, N'Pincode:Add')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (111, N'Pincode:Update/Edit')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (112, N'Pincode:Delete')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (113, N'Pincode:Export')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (114, N'Tier Management:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (115, N'Tier Management:Add')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (116, N'Tier Management:Update/Edit')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (117, N'Role:View')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (118, N'Role:Search/Filter')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (119, N'Role:Add')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (120, N'Role:Update/Edit')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (121, N'Role:Delete')
+GO
+INSERT [dbo].[Permissions] ([PermissionId], [PermissionName]) VALUES (122, N'Role:Export')
+GO
+SET IDENTITY_INSERT [dbo].[Permissions] OFF
+GO
+SET IDENTITY_INSERT [dbo].[RolePermissions] ON 
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2201, 1, 1, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2202, 1, 2, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2203, 1, 3, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2204, 1, 4, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2205, 1, 5, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2206, 1, 6, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2207, 1, 38, 15)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2208, 1, 39, 15)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2209, 1, 40, 15)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2210, 1, 41, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2211, 1, 42, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2212, 1, 43, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2213, 1, 44, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2214, 1, 45, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2215, 1, 46, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2216, 1, 90, 24)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2217, 1, 91, 24)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2218, 1, 92, 24)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2219, 1, 78, 29)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2220, 1, 79, 21)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2221, 1, 80, 21)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2222, 1, 81, 21)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2223, 1, 82, 21)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2224, 1, 87, 23)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2225, 1, 88, 23)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2226, 1, 89, 23)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2227, 1, 93, 3)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2228, 1, 94, 3)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2229, 1, 95, 3)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2230, 1, 96, 3)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2231, 1, 97, 3)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2232, 1, 98, 25)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2233, 1, 99, 25)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2234, 1, 100, 25)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2235, 1, 101, 26)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2236, 1, 102, 26)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2237, 1, 103, 26)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2238, 1, 104, 26)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2239, 1, 108, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2240, 1, 109, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2241, 1, 110, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2242, 1, 111, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2243, 1, 112, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2244, 1, 113, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2245, 1, 35, 20)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2246, 1, 36, 20)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2247, 1, 37, 20)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2248, 1, 20, 16)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2249, 1, 21, 16)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2250, 1, 22, 16)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2251, 1, 23, 16)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2252, 1, 59, 8)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2253, 1, 60, 8)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2254, 1, 61, 8)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2255, 1, 62, 8)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2256, 1, 24, 17)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2257, 1, 25, 17)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2258, 1, 26, 17)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2259, 1, 27, 17)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2260, 1, 28, 17)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2261, 1, 73, 11)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2262, 1, 74, 11)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2263, 1, 75, 11)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2264, 1, 76, 11)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2265, 1, 77, 11)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2266, 1, 68, 10)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2267, 1, 69, 10)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2268, 1, 70, 10)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2269, 1, 71, 10)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2270, 1, 72, 10)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2271, 1, 117, 1)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2272, 1, 118, 1)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2273, 1, 119, 1)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2274, 1, 120, 1)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2275, 1, 121, 1)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2276, 1, 122, 1)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2277, 1, 16, 14)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2278, 1, 17, 14)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2279, 1, 18, 14)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2280, 1, 19, 14)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2281, 1, 63, 9)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2282, 1, 64, 9)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2283, 1, 65, 9)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2284, 1, 66, 9)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2285, 1, 67, 9)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2286, 1, 83, 22)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2287, 1, 84, 22)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2288, 1, 85, 22)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2289, 1, 86, 22)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2290, 1, 7, 13)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2291, 1, 8, 13)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2292, 1, 9, 13)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2293, 1, 10, 13)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2294, 1, 11, 13)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2295, 1, 12, 13)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2296, 1, 47, 5)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2297, 1, 48, 5)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2298, 1, 49, 5)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2299, 1, 50, 5)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2300, 1, 51, 5)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2301, 1, 52, 5)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2302, 1, 105, 27)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2303, 1, 106, 27)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2304, 1, 107, 27)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2305, 1, 29, 18)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2306, 1, 30, 18)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2307, 1, 31, 18)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2308, 1, 114, 28)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2309, 1, 115, 28)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2310, 1, 116, 28)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2311, 1, 32, 19)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2312, 1, 33, 19)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2313, 1, 34, 19)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2314, 1, 53, 4)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2315, 1, 54, 4)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2316, 1, 55, 4)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2317, 1, 56, 4)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2318, 1, 57, 4)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2319, 1, 58, 4)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (2320, 1, 13, 2)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (5843, 1, 15, 2)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (6556, 1, 14, 2)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7665, 14, 1, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7666, 14, 38, 15)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7667, 14, 41, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7668, 14, 93, 3)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7669, 14, 101, 26)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7670, 14, 108, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7671, 14, 20, 16)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7672, 14, 59, 8)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7673, 14, 24, 17)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7674, 14, 73, 11)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7675, 14, 68, 10)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7676, 14, 117, 1)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7677, 14, 16, 14)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7678, 14, 63, 9)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7679, 14, 7, 13)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7680, 14, 47, 5)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7681, 14, 29, 18)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7682, 14, 13, 2)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (7683, 14, 53, 4)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8347, 9, 1, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8348, 9, 2, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8349, 9, 3, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8350, 9, 4, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8351, 9, 5, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8352, 9, 6, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8353, 9, 38, 15)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8354, 9, 39, 15)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8355, 9, 40, 15)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8356, 9, 41, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8357, 9, 42, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8358, 9, 43, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8359, 9, 44, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8360, 9, 45, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8361, 9, 46, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8362, 9, 90, 24)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8363, 9, 91, 24)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8364, 9, 92, 24)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8365, 9, 78, 29)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8366, 9, 79, 21)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8367, 9, 80, 21)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8368, 9, 81, 21)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8369, 9, 82, 21)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8370, 9, 87, 23)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8371, 9, 88, 23)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8372, 9, 89, 23)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8373, 9, 93, 3)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8374, 9, 94, 3)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8375, 9, 95, 3)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8376, 9, 96, 3)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8377, 9, 97, 3)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8378, 9, 98, 25)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8379, 9, 99, 25)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8380, 9, 100, 25)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8381, 9, 101, 26)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8382, 9, 102, 26)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8383, 9, 103, 26)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8384, 9, 104, 26)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8385, 9, 108, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8386, 9, 109, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8387, 9, 110, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8388, 9, 111, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8389, 9, 112, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8390, 9, 113, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8391, 9, 35, 20)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8392, 9, 36, 20)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8393, 9, 37, 20)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8394, 9, 20, 16)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8395, 9, 21, 16)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8396, 9, 22, 16)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8397, 9, 23, 16)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8398, 9, 59, 8)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8399, 9, 60, 8)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8400, 9, 61, 8)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8401, 9, 62, 8)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8402, 9, 24, 17)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8403, 9, 25, 17)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8404, 9, 26, 17)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8405, 9, 27, 17)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8406, 9, 73, 11)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8407, 9, 74, 11)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8408, 9, 75, 11)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8409, 9, 68, 10)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8410, 9, 69, 10)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8411, 9, 70, 10)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8412, 9, 72, 10)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8413, 9, 117, 1)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8414, 9, 118, 1)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8415, 9, 16, 14)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8416, 9, 17, 14)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8417, 9, 18, 14)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8418, 9, 19, 14)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8419, 9, 63, 9)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8420, 9, 65, 9)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8421, 9, 66, 9)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8422, 9, 67, 9)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8423, 9, 83, 22)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8424, 9, 85, 22)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8425, 9, 86, 22)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8426, 9, 7, 13)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8427, 9, 9, 13)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8428, 9, 10, 13)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8429, 9, 11, 13)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8430, 9, 12, 13)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8431, 9, 47, 5)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8432, 9, 50, 5)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8433, 9, 51, 5)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8434, 9, 52, 5)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8435, 9, 105, 27)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8436, 9, 106, 27)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8437, 9, 107, 27)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8438, 9, 29, 18)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8439, 9, 30, 18)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8440, 9, 31, 18)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8441, 9, 114, 28)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8442, 9, 115, 28)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8443, 9, 116, 28)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8444, 9, 32, 19)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8445, 9, 33, 19)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8446, 9, 34, 19)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8447, 9, 13, 2)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8448, 9, 14, 2)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8449, 9, 15, 2)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8450, 9, 53, 4)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8451, 9, 54, 4)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8452, 9, 55, 4)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8453, 9, 56, 4)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8454, 9, 57, 4)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8455, 9, 58, 4)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8456, 8, 1, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8457, 8, 2, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8458, 8, 3, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8459, 8, 4, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8460, 8, 5, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8461, 8, 6, 12)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8462, 8, 38, 15)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8463, 8, 39, 15)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8464, 8, 40, 15)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8465, 8, 41, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8466, 8, 42, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8467, 8, 43, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8468, 8, 44, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8469, 8, 45, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8470, 8, 46, 6)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8471, 8, 90, 24)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8472, 8, 91, 24)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8473, 8, 92, 24)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8474, 8, 78, 29)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8475, 8, 79, 21)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8476, 8, 80, 21)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8477, 8, 81, 21)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8478, 8, 82, 21)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8479, 8, 87, 23)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8480, 8, 88, 23)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8481, 8, 89, 23)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8482, 8, 93, 3)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8483, 8, 94, 3)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8484, 8, 95, 3)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8485, 8, 96, 3)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8486, 8, 97, 3)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8487, 8, 98, 25)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8488, 8, 99, 25)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8489, 8, 100, 25)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8490, 8, 101, 26)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8491, 8, 102, 26)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8492, 8, 103, 26)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8493, 8, 104, 26)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8494, 8, 108, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8495, 8, 109, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8496, 8, 110, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8497, 8, 111, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8498, 8, 112, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8499, 8, 113, 7)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8500, 8, 35, 20)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8501, 8, 36, 20)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8502, 8, 37, 20)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8503, 8, 20, 16)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8504, 8, 21, 16)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8505, 8, 22, 16)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8506, 8, 23, 16)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8507, 8, 59, 8)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8508, 8, 60, 8)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8509, 8, 61, 8)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8510, 8, 62, 8)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8511, 8, 24, 17)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8512, 8, 25, 17)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8513, 8, 26, 17)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8514, 8, 27, 17)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8515, 8, 28, 17)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8516, 8, 73, 11)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8517, 8, 74, 11)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8518, 8, 75, 11)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8519, 8, 76, 11)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8520, 8, 77, 11)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8521, 8, 68, 10)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8522, 8, 69, 10)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8523, 8, 70, 10)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8524, 8, 71, 10)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8525, 8, 72, 10)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8526, 8, 117, 1)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8527, 8, 118, 1)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8528, 8, 119, 1)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8529, 8, 120, 1)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8530, 8, 121, 1)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8531, 8, 122, 1)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8532, 8, 16, 14)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8533, 8, 17, 14)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8534, 8, 18, 14)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8535, 8, 19, 14)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8536, 8, 63, 9)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8537, 8, 64, 9)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8538, 8, 65, 9)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8539, 8, 66, 9)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8540, 8, 67, 9)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8541, 8, 83, 22)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8542, 8, 84, 22)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8543, 8, 85, 22)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8544, 8, 86, 22)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8545, 8, 7, 13)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8546, 8, 8, 13)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8547, 8, 9, 13)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8548, 8, 10, 13)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8549, 8, 11, 13)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8550, 8, 12, 13)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8551, 8, 47, 5)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8552, 8, 48, 5)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8553, 8, 49, 5)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8554, 8, 50, 5)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8555, 8, 51, 5)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8556, 8, 52, 5)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8557, 8, 105, 27)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8558, 8, 106, 27)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8559, 8, 107, 27)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8560, 8, 29, 18)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8561, 8, 30, 18)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8562, 8, 31, 18)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8563, 8, 114, 28)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8564, 8, 115, 28)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8565, 8, 116, 28)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8566, 8, 32, 19)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8567, 8, 33, 19)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8568, 8, 34, 19)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8569, 8, 13, 2)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8570, 8, 14, 2)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8571, 8, 15, 2)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8572, 8, 53, 4)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8573, 8, 54, 4)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8574, 8, 55, 4)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8575, 8, 56, 4)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8576, 8, 57, 4)
+GO
+INSERT [dbo].[RolePermissions] ([RolePermissionId], [RoleId], [PermissionId], [WebPageId]) VALUES (8577, 8, 58, 4)
+GO
+SET IDENTITY_INSERT [dbo].[RolePermissions] OFF
+GO
